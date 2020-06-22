@@ -39,3 +39,6 @@ RUN wget -qO- https://developer.arm.com/-/media/Files/downloads/gnu-rm/9-2019q4/
 
 # Set ENV
 ENV PATH "/work/gcc-arm-none-eabi-9-2019-q4-major/bin:$PATH"
+
+# Set ENV var for toolchain
+ENV ARM_TOOLCHAIN_PATH "/work/gcc-arm-none-eabi-9-2019-q4-major"
